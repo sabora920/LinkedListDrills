@@ -11,7 +11,10 @@ function main(){
   SLL.insertLast('Husker');
   SLL.insertLast('Starbuck');    
   SLL.insertLast('Grapes'); 
-  SLL.remove('squirrel'); 
+//   SLL.remove('squirrel'); 
+  SLL.insertBefore('Firoz', 'Grapes')
+  SLL.insertAfter('Ryan', 'Firoz')
+  
   console.log(JSON.stringify(SLL));
 }
 
